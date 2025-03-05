@@ -41,24 +41,29 @@ s.n. dasgupta
 ```
 ### Display the content of the files
 cat < file1
-## OUTPUT
+## OUTPUTcat<f
+![Screenshot from 2025-03-05 16-23-47](https://github.com/user-attachments/assets/333a3635-7cc4-4490-bbe8-fad9c4b9b716)
 
 
 
 cat < file2
 ## OUTPUT
+![Screenshot from 2025-03-05 16-24-50](https://github.com/user-attachments/assets/c04e2ff3-d69b-4979-a21a-8c5c34602fac)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![Screenshot from 2025-03-05 16-26-38](https://github.com/user-attachments/assets/6530dcab-30c2-483a-9e9e-1716d40b0d2f)
+
 comm file1 file2
  ## OUTPUT
+![Screenshot from 2025-03-05 16-28-15](https://github.com/user-attachments/assets/2f36eb65-7b96-429f-94af-2651cf7dd83e)
 
  
 diff file1 file2
 ## OUTPUT
+![Screenshot from 2025-03-05 16-30-33](https://github.com/user-attachments/assets/bbbe6d29-0545-424b-a8ea-4a9d74538663)
 
 
 #Filters
@@ -703,6 +708,7 @@ $ ./elifcheck.sh
 cat> ifcompound.sh 
 ```bash
 \#!/bin/bash
+
 if [ -d $HOME ] && [ -w $HOME ]
 then
 echo "The file exists and you can write to it"
